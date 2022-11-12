@@ -31,70 +31,73 @@ body {
 #page-content {
     display: flex;
     flex-flow:row wrap;
+    flex: 0 0 100%;
 }
 /* Apply styles to my background section */
 #background {
-    display: flex-inline;
-    flex-flow: row wrap;
+    display:inline-flex;
+    flex: 0 0 40%;
     border: 2px solid var(--light-theme);
-    justify-content: left;
+    align-items: center;
     border-radius: 5px 5px;
-    margin: 2% 25% 2% 0%;
+    margin: 2% 55% 2% 0%;
+}
+
+#background section {
+    display: flex;
+    align-items: center;
 }
 
 #background p {
-    display: flex;
-    flex-flow: row wrap;
-    display: 0 0 75%;
+    display: inline;
 }
 /* Apply styles to my background section image */
 #background img {
-    display: flex;
-    flex-flow: row wrap;
-    display: 0 0 25%;
     width: 20%;
     height: 20%;
-    align-self: flex-start;
+    vertical-align: middle;
+
     
 }
 /* Apply styles to my skills section */
 #skills {
-    display: flex;
-    flex-flow: row wrap;
+    display: inline-flex;
+    flex: 0 0 40%;
     border: 2px solid var(--light-theme);
-    justify-content: right;
+    align-items: center;
     border-radius: 5px 5px;
-    margin: 2% 0% 2% 25%;
+    margin: 2% 0% 2% 59%;
 }
 
 #skills article {
     display: flex;
-    flex-flow: column wrap;
-    flex: 0 0 50%;
-    justify-content: flex-start;
+    align-items: center;
 }
 
 #skills h2 {
-    flex: 0 0 100%;
+    display: inline;
 }
 
 #skills li {
-    flex: 0 0 100%;
+    display: inline;
 }
 
 #skills img {
+    display: inline;
     width: 40%;
     height: 40%;
-    align-self:flex-start;
+
 }
 
 /* Apply styles to my portfolio section */
 #portfolio {
     display: flex;
     flex-flow: row wrap;
+    flex: 0 0 90%;
     border: 2px solid var(--light-theme);
-    justify-content: left;
+    justify-content: center ;
     border-radius: 5px 5px;
+    margin: 0 2%;
 }
 
 /* Apply styles to my portfolio section image */
