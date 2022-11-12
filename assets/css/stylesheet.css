@@ -1,0 +1,36 @@
+/* Use to declare common attributes */
+:root {
+
+};
+/* Apply universal styles */
+* {
+
+};
+/* Apply styles to the body of the page */
+body {
+
+};
+/* Apply styles to my background section */
+.background {
+
+};
+/* Apply styles to my skills section */
+.skills {
+
+};
+/* Apply styles to my portfolio section */
+.portfolio {
+
+};
+/* Apply styles to my background section image */
+.background img {
+
+};
+/* Apply styles to my skills section image */
+.skills img {
+
+};
+/* Apply styles to my portfolio section image */
+.portfolio img {
+
+};
