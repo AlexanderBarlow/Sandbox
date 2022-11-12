@@ -1,33 +1,37 @@
 /* Use to declare common attributes */
 :root {
-
-}
+    --light-theme: #00ffff;
+    --white-text: #f0f8ff;
+    --bolder-text: bolder;
+}   
 
 * {
     font-family:fantasy;
     font-size: large;
+    color: var(--white-text);
+    font-weight: bolder;
 }
 /* Apply styles to my header */
 header {
     display: flex;
     flex-flow: row wrap;
     border: 2px;
-    border: 2px solid aqua;
+    border: 2px solid var(--light-theme);
     justify-content: center;
     border-radius: 5px 5px;
-    color: aliceblue;
+    font-weight: var(--bolder-text);
 }
 /* Apply styles to the body of the page */
 body {
     background: rgb(137,33,228);
     background: linear-gradient(90deg, rgba(137,33,228,1) 16%, rgba(134,37,228,1) 30%, rgba(106,74,228,1) 51%, rgba(96,87,228,1) 82%, rgba(66,127,228,1) 99%, rgba(33,171,228,1) 100%, rgba(0,212,255,1) 100%);
+    font-weight: var(--bolder-text);
 }
 /* Apply styles to my background section */
 #background {
     display: flex;
     flex-flow: row wrap;
-    border: 2px;
-    border: 2px solid aqua;
+    border: 2px solid var(--light-theme);
     justify-content: left;
     border-radius: 5px 5px;
     margin: 2% 25% 2% 0%;
@@ -36,38 +40,43 @@ body {
 #skills {
     display: flex;
     flex-flow: row wrap;
-    border: 2px;
-    border: 2px solid aqua;
+    border: 2px solid var(--light-theme);
     justify-content: right;
     border-radius: 5px 5px;
     margin: 2% 0% 2% 25%;
 }
+
+#skills article {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: right;
+}
+
 /* Apply styles to my portfolio section */
 #portfolio {
     display: flex;
     flex-flow: row wrap;
-    border: 2px;
-    border: 2px solid aqua;
+    border: 2px solid var(--light-theme);
     justify-content: center;
     border-radius: 5px 5px;
 }
 /* Apply styles to my background section image */
 #background img {
-    border: 2px solid aqua;
+    
 }
 /* Apply styles to my skills section image */
 #skills img {
-    border: 2px solid aqua;
+    align-items: flex-start;
 }
 /* Apply styles to my portfolio section image */
 #portfolio img {
-    border: 2px solid aqua;
+    
 }
 
 footer {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    border: 2px solid aqua;
+    border: 2px solid var(--light-theme);
     margin: 2%
 }
