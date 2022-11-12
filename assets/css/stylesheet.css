@@ -27,9 +27,14 @@ body {
     background: linear-gradient(90deg, rgba(137,33,228,1) 16%, rgba(134,37,228,1) 30%, rgba(106,74,228,1) 51%, rgba(96,87,228,1) 82%, rgba(66,127,228,1) 99%, rgba(33,171,228,1) 100%, rgba(0,212,255,1) 100%);
     font-weight: var(--bolder-text);
 }
+
+#page-content {
+    display: flex;
+    flex-flow:row wrap;
+}
 /* Apply styles to my background section */
 #background {
-    display: flex;
+    display: flex-inline;
     flex-flow: row wrap;
     border: 2px solid var(--light-theme);
     justify-content: left;
@@ -60,13 +65,27 @@ body {
     justify-content: center;
     border-radius: 5px 5px;
 }
+
+#background p {
+    display: flex;
+    flex-flow: row wrap;
+    display: 0 0 75%;
+}
 /* Apply styles to my background section image */
 #background img {
+    display: flex;
+    flex-flow: row wrap;
+    display: 0 0 25%;
+    width: 20%;
+    height: 20%;
+    align-self: flex-start;
     
 }
 /* Apply styles to my skills section image */
 #skills img {
-    align-items: flex-start;
+    width: 40%;
+    height: 40%;
+    align-self:flex-start;
 }
 /* Apply styles to my portfolio section image */
 #portfolio img {
