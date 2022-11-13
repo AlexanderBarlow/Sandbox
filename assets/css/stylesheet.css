@@ -123,11 +123,18 @@ body {
   flex: 0 0 100%;
 }
 
+#portfolio a {
+    display: flex;
+    justify-content: center;
+}
+
 /* Apply styles to my portfolio section image */
 #portfolio img {
     display: flex;
-    flex: 0 0 25%;
-    ustify-content: center;
+    flex: 0 0 50%;
+    justify-content: center;
+    height: 70%;
+    width: 50%;
 }
 
 footer {
