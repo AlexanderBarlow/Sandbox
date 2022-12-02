@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @NewCoderNoob
 - 👀 I’m interested in learning full-stack development.
-- 🌱 I’m currently learning the basics of java and css.
+- 🌱 I’m currently learning es6 syntax and node.js.
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me ...
 
